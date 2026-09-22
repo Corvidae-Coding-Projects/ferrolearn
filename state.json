@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 41,
-        "tip_oid": "5e4630e6fdeabd2156e15bcd6f46a844d941079c",
-        "prefix_sha256": "73c4f7f3803f2b4642cc910ab6922c4d71e96719924378d137ad238174e3c035"
+        "sequence": 42,
+        "tip_oid": "cd0b4bb0b34e80053d4f7c5a868764e1860df65a",
+        "prefix_sha256": "3eafd7be2fa6646aead3ba6d8091a8fe656f9cddd09d132f87d177cc7903fd6a"
       }
     }
   },
   "next_display_id": 7,
-  "next_comment_id": 22,
+  "next_comment_id": 23,
   "display_id_map": {
     "02b468fb-37f0-460e-978a-910f6dff0d04": 6,
     "22e42a4b-adea-4744-aaaa-e9bf7ae9481b": 5,
@@ -68,7 +68,7 @@
       "priority": "high",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:03:07.527426117Z",
-      "updated_at": "2026-09-22T22:44:59.331608342Z",
+      "updated_at": "2026-09-22T22:45:03.585725104Z",
       "labels": [
         "refactor"
       ],
@@ -141,6 +141,16 @@
           "content": "User confirmed ferrolearn is the target. Build/install current Peritus develop while preserving login, then drive its agent and built-in structural linter. Reorganize oversized source files into nested responsibility-based crate modules; preserve public APIs, behavior and existing parity artifacts. Add useful README.md and AGENTS.md throughout repository-owned directories, excluding generated caches and Git metadata. Validate structure, documentation coverage and compilation/tests; do not commit or push.",
           "created_at": "2026-09-22T22:04:07.806218861Z",
           "kind": "plan"
+        },
+        "bfa6c734-8b91-479c-b501-96afddcf789f": {
+          "display_id": 22,
+          "author": "anon-2101b8a8",
+          "content": "User required the agent-to-agent interface.",
+          "created_at": "2026-09-22T22:45:03.585058301Z",
+          "kind": "intervention",
+          "trigger_type": "redirect",
+          "intervention_context": "Switched from WebUI/TUI supervision to direct G1/A3 JSON run control",
+          "driver_key_fingerprint": "SHA256:6GbEO9gckWEeR3l6YB3LUaTe1Oc9qqn0WLtMVuu7a8A"
         },
         "d6d2a972-40b2-4665-ac81-fec3443d4170": {
           "display_id": 14,
@@ -484,6 +494,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 41,
       "timestamp": "2026-09-22T22:44:59.331608342Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 42,
+      "timestamp": "2026-09-22T22:45:03.585725104Z"
     }
   ],
   "watermark": {
