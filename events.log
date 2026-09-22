@@ -1,2 +1,3 @@
 {"agent_id":"anon-2101b8a8","agent_seq":1,"timestamp":"2026-09-22T21:20:36.515091700Z","event":{"type":"IssueCreated","uuid":"e929def1-8008-4825-a775-6a23426fe31e","title":"Document codebase architecture and quality findings","priority":"low","created_by":"anon-2101b8a8"}}
 {"agent_id":"anon-2101b8a8","agent_seq":2,"timestamp":"2026-09-22T21:20:40.582138861Z","event":{"type":"LabelAdded","issue_uuid":"e929def1-8008-4825-a775-6a23426fe31e","label":"docs"}}
+{"agent_id":"anon-2101b8a8","agent_seq":3,"timestamp":"2026-09-22T21:20:44.510807848Z","event":{"type":"LockClaimed","issue_display_id":1}}
