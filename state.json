@@ -3,16 +3,17 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 7,
-        "tip_oid": "791778506a4532b9772abc48df2b60fd0885c622",
-        "prefix_sha256": "aa363b851c8ee5d1dcd0dda5285b7656dedf3b4276c78d3906cf5bcc1dff5cfd"
+        "sequence": 8,
+        "tip_oid": "4abeb2c28dc6f1bc5f0c6608901db4762cd5029c",
+        "prefix_sha256": "ee06262872b3f7746bcd6c83438ca05d603c6eee9c0a2185617c0f0ca5f1451d"
       }
     }
   },
-  "next_display_id": 2,
+  "next_display_id": 3,
   "next_comment_id": 3,
   "display_id_map": {
-    "e929def1-8008-4825-a775-6a23426fe31e": 1
+    "e929def1-8008-4825-a775-6a23426fe31e": 1,
+    "f993d5f6-3e97-4718-bf41-b00e5ac7fcfa": 2
   },
   "locks": {},
   "issues": {
@@ -45,6 +46,16 @@
           "kind": "result"
         }
       }
+    },
+    "f993d5f6-3e97-4718-bf41-b00e5ac7fcfa": {
+      "uuid": "f993d5f6-3e97-4718-bf41-b00e5ac7fcfa",
+      "display_id": 2,
+      "title": "Update scikit-learn parity map against version 1.5.2",
+      "status": "open",
+      "priority": "medium",
+      "created_by": "anon-2101b8a8",
+      "created_at": "2026-09-22T21:25:40.218329816Z",
+      "updated_at": "2026-09-22T21:25:40.218329816Z"
     }
   },
   "next_milestone_id": 1,
@@ -83,6 +94,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 7,
       "timestamp": "2026-09-22T21:24:26.582061114Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 8,
+      "timestamp": "2026-09-22T21:25:40.218329816Z"
     }
   ],
   "watermark": {
