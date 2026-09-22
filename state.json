@@ -1,11 +1,40 @@
 {
   "checkpoint_schema_version": 2,
-  "next_display_id": 1,
+  "frontier": {
+    "agents": {
+      "anon-2101b8a8": {
+        "sequence": 1,
+        "tip_oid": "39acf630f030dde95d1ea621e84e8320ac3e7db7",
+        "prefix_sha256": "23b4cd3cae702a48413307258d1544e6fd084892983da429bfca54f03414f020"
+      }
+    }
+  },
+  "next_display_id": 2,
   "next_comment_id": 1,
-  "display_id_map": {},
+  "display_id_map": {
+    "e929def1-8008-4825-a775-6a23426fe31e": 1
+  },
   "locks": {},
-  "issues": {},
+  "issues": {
+    "e929def1-8008-4825-a775-6a23426fe31e": {
+      "uuid": "e929def1-8008-4825-a775-6a23426fe31e",
+      "display_id": 1,
+      "title": "Document codebase architecture and quality findings",
+      "status": "open",
+      "priority": "low",
+      "created_by": "anon-2101b8a8",
+      "created_at": "2026-09-22T21:20:36.515091700Z",
+      "updated_at": "2026-09-22T21:20:36.515091700Z"
+    }
+  },
   "next_milestone_id": 1,
+  "unsigned_event_warnings": [
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 1,
+      "timestamp": "2026-09-22T21:20:36.515091700Z"
+    }
+  ],
   "watermark": {
     "unsupported_checkpoint_schema": 2
   }
