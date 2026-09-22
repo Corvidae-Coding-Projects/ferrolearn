@@ -3,9 +3,9 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 5,
-        "tip_oid": "6b9710a1e87c549f57d7171bdab3a5b1774077b8",
-        "prefix_sha256": "db48b4bd2f232b8a5ea5355d14a860124db4b6d0fc93571a275dab2a099d76aa"
+        "sequence": 6,
+        "tip_oid": "61a3300f2b8831cd70e28562ef2b266ba5f86fcf",
+        "prefix_sha256": "59aac3a54ff6a67f72228b0a186aacbcc0ec98bea137463b8b726a5a3d179b34"
       }
     }
   },
@@ -25,11 +25,12 @@
       "uuid": "e929def1-8008-4825-a775-6a23426fe31e",
       "display_id": 1,
       "title": "Document codebase architecture and quality findings",
-      "status": "open",
+      "status": "closed",
       "priority": "low",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T21:20:36.515091700Z",
-      "updated_at": "2026-09-22T21:24:14.515810287Z",
+      "updated_at": "2026-09-22T21:24:22.519984969Z",
+      "closed_at": "2026-09-22T21:24:22.519370195Z",
       "labels": [
         "docs"
       ],
@@ -77,6 +78,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 5,
       "timestamp": "2026-09-22T21:24:14.515810287Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 6,
+      "timestamp": "2026-09-22T21:24:22.519984969Z"
     }
   ],
   "watermark": {
