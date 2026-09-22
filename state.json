@@ -3,16 +3,17 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 31,
-        "tip_oid": "67f4d31e5427c9f7dccc9dde684f4af330915b7f",
-        "prefix_sha256": "dcc33fec97478217c7471ac6f71d5d65700714c6a5f71b57ce2ec7b87feb87d5"
+        "sequence": 32,
+        "tip_oid": "94f0cde20ebc85cecb03326e8556fed93b7f6809",
+        "prefix_sha256": "3c296aa4e724ddd9a32730880debe421a48976da8a8d7e7f058f7bce2034a924"
       }
     }
   },
-  "next_display_id": 4,
+  "next_display_id": 5,
   "next_comment_id": 19,
   "display_id_map": {
     "2bfd77af-dab2-4e68-85f4-aab3cdc1412c": 3,
+    "9641379b-480d-4e15-9478-8928ad33a223": 4,
     "e929def1-8008-4825-a775-6a23426fe31e": 1,
     "f993d5f6-3e97-4718-bf41-b00e5ac7fcfa": 2
   },
@@ -100,6 +101,18 @@
           "kind": "note"
         }
       }
+    },
+    "9641379b-480d-4e15-9478-8928ad33a223": {
+      "uuid": "9641379b-480d-4e15-9478-8928ad33a223",
+      "display_id": 4,
+      "title": "Reorganize core modules with preserved APIs and source behavior",
+      "description": "Peritus run afcdd27c4fd82c86d67a61e882b7c224 handles core. Inspect actual code, preserve all public paths and behavior, group domain modules and tests, keep sources at most 500 lines, local README and AGENTS coverage, source-body comparison and focused checks before integration.",
+      "status": "open",
+      "priority": "high",
+      "parent_uuid": "2bfd77af-dab2-4e68-85f4-aab3cdc1412c",
+      "created_by": "anon-2101b8a8",
+      "created_at": "2026-09-22T22:44:07.257421269Z",
+      "updated_at": "2026-09-22T22:44:07.257421269Z"
     },
     "e929def1-8008-4825-a775-6a23426fe31e": {
       "uuid": "e929def1-8008-4825-a775-6a23426fe31e",
@@ -353,6 +366,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 31,
       "timestamp": "2026-09-22T22:38:25.033419303Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 32,
+      "timestamp": "2026-09-22T22:44:07.257421269Z"
     }
   ],
   "watermark": {
