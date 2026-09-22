@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 42,
-        "tip_oid": "cd0b4bb0b34e80053d4f7c5a868764e1860df65a",
-        "prefix_sha256": "3eafd7be2fa6646aead3ba6d8091a8fe656f9cddd09d132f87d177cc7903fd6a"
+        "sequence": 43,
+        "tip_oid": "50f524b7633940959c23e2f57a44d21bc57547c6",
+        "prefix_sha256": "c819b12208cf718dcad95c2fd1932361448a601a6bc4acff0c844065a8f59a8b"
       }
     }
   },
   "next_display_id": 7,
-  "next_comment_id": 23,
+  "next_comment_id": 24,
   "display_id_map": {
     "02b468fb-37f0-460e-978a-910f6dff0d04": 6,
     "22e42a4b-adea-4744-aaaa-e9bf7ae9481b": 5,
@@ -178,7 +178,7 @@
       "parent_uuid": "2bfd77af-dab2-4e68-85f4-aab3cdc1412c",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:44:07.257421269Z",
-      "updated_at": "2026-09-22T22:44:51.772995374Z",
+      "updated_at": "2026-09-22T22:55:46.735961358Z",
       "labels": [
         "refactor"
       ],
@@ -189,6 +189,13 @@
           "content": "Review and complete the active Peritus core candidate. Published source-grounded design preserves API/module paths and feature gates. Independent syn inventory captured 428 pre-refactor core functions/methods/macros. The first BLAS test move had 23 unnecessary rewrites; direct CLI steering restored all 428 records to exact token-level equality. Finish other core modules and local documentation, verify built-in Source layout plus focused build/tests/lint, then integrate reviewed candidate without touching prior parity artifacts.",
           "created_at": "2026-09-22T22:44:51.772372320Z",
           "kind": "plan"
+        },
+        "57aeaf84-8326-49d2-8879-d89d12912812": {
+          "display_id": 23,
+          "author": "anon-2101b8a8",
+          "content": "The direct Peritus run has mechanically split backend_blas, backend_faer and dataset in its managed workspace. Parent review independently compares 428 function/method/macro records and 509 declaration/attribute records against untouched original source; all currently match. Agent cargo check for core passes. Pipeline splits, local docs and complete candidate qualification remain pending. Captured immutable declaration/attribute baselines for all 22 crates (15,780 records) and original owned-folder coverage (119 directory ancestors) in private cache for final review.",
+          "created_at": "2026-09-22T22:55:46.735266374Z",
+          "kind": "observation"
         }
       }
     },
@@ -499,6 +506,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 42,
       "timestamp": "2026-09-22T22:45:03.585725104Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 43,
+      "timestamp": "2026-09-22T22:55:46.735961358Z"
     }
   ],
   "watermark": {
