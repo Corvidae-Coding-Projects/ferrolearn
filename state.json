@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 40,
-        "tip_oid": "27f4556170c4b420dae3f6f62ad8582b2f591da6",
-        "prefix_sha256": "fe6fcb277df9de3b033d51c133fb3df9cdaad70f37e40d047a31de5bdb77138d"
+        "sequence": 41,
+        "tip_oid": "5e4630e6fdeabd2156e15bcd6f46a844d941079c",
+        "prefix_sha256": "73c4f7f3803f2b4642cc910ab6922c4d71e96719924378d137ad238174e3c035"
       }
     }
   },
   "next_display_id": 7,
-  "next_comment_id": 21,
+  "next_comment_id": 22,
   "display_id_map": {
     "02b468fb-37f0-460e-978a-910f6dff0d04": 6,
     "22e42a4b-adea-4744-aaaa-e9bf7ae9481b": 5,
@@ -68,7 +68,7 @@
       "priority": "high",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:03:07.527426117Z",
-      "updated_at": "2026-09-22T22:44:55.512304003Z",
+      "updated_at": "2026-09-22T22:44:59.331608342Z",
       "labels": [
         "refactor"
       ],
@@ -79,6 +79,16 @@
           "content": "The second Peritus attempt completed its grounded design and entered Writing after 8m09s. Reviewed the published design: dynamic pipeline contracts/composition/execution/passthrough/union; typed contracts/adapters/chain/builder/execution; validation and backend conversion boundaries; domain-grouped nested tests; README+AGENTS coverage; existing module roots/reexports/features preserved. No source-checkout changes yet. Direct G1 JSON run controls are now the sole task-control route. External syn source comparison baseline is ready for candidate review.",
           "created_at": "2026-09-22T22:32:44.932843574Z",
           "kind": "decision"
+        },
+        "245a5da3-0a30-4d7d-b223-4cbd1090ca55": {
+          "display_id": 21,
+          "author": "anon-2101b8a8",
+          "content": "User specified saved OpenAI provider and Sol 5.6.",
+          "created_at": "2026-09-22T22:44:59.330781478Z",
+          "kind": "intervention",
+          "trigger_type": "redirect",
+          "intervention_context": "Corrected intended provider selection from latest generated configuration",
+          "driver_key_fingerprint": "SHA256:6GbEO9gckWEeR3l6YB3LUaTe1Oc9qqn0WLtMVuu7a8A"
         },
         "29fbb9cf-f3f1-47f2-98f0-337eb4cb2f19": {
           "display_id": 15,
@@ -469,6 +479,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 40,
       "timestamp": "2026-09-22T22:44:55.512304003Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 41,
+      "timestamp": "2026-09-22T22:44:59.331608342Z"
     }
   ],
   "watermark": {
