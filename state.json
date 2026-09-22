@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 27,
-        "tip_oid": "e434f972a9f68ad420a7d4bcb3fc68684b13631f",
-        "prefix_sha256": "81ee153ec01c595105c208b509f0e4ba8307434a286f675aecd0a8dba203374d"
+        "sequence": 28,
+        "tip_oid": "353cdd22d3e7f646c31bee5b125f66a87fff0061",
+        "prefix_sha256": "1c0297c10da78af500e22de482c7beb38a4c3ce3ad0d52a043c67e9ec84bf040"
       }
     }
   },
   "next_display_id": 4,
-  "next_comment_id": 15,
+  "next_comment_id": 16,
   "display_id_map": {
     "2bfd77af-dab2-4e68-85f4-aab3cdc1412c": 3,
     "e929def1-8008-4825-a775-6a23426fe31e": 1,
@@ -31,11 +31,18 @@
       "priority": "high",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:03:07.527426117Z",
-      "updated_at": "2026-09-22T22:19:47.841618816Z",
+      "updated_at": "2026-09-22T22:25:05.045627469Z",
       "labels": [
         "refactor"
       ],
       "comments": {
+        "29fbb9cf-f3f1-47f2-98f0-337eb4cb2f19": {
+          "display_id": 15,
+          "author": "anon-2101b8a8",
+          "content": "User directed using the agent-to-agent interface. Switching supervision to Peritus direct G1/A3 machine client and run controls; stop using TUI/WebUI bridge for task control. Reuse the already-created exact run afcdd27c4fd82c86d67a61e882b7c224 and saved OpenAI gpt-5.6-sol selection.",
+          "created_at": "2026-09-22T22:25:05.044858253Z",
+          "kind": "decision"
+        },
         "5ea220ca-d618-453c-aec3-5aa632bac0fa": {
           "display_id": 11,
           "author": "anon-2101b8a8",
@@ -305,6 +312,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 27,
       "timestamp": "2026-09-22T22:19:47.841618816Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 28,
+      "timestamp": "2026-09-22T22:25:05.045627469Z"
     }
   ],
   "watermark": {
