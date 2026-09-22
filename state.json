@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 24,
-        "tip_oid": "666c7a175580159416cc8109467a8294f0acd3fc",
-        "prefix_sha256": "8510b93d4e34c694d5c6b9d09b9afcb60698932181c9bd08fd5e53ee30b233fb"
+        "sequence": 25,
+        "tip_oid": "661db2f36ab9fef4e9bdeef5d1b26700267331e1",
+        "prefix_sha256": "19068ea4f48f3e734d12d250c8f41777d8829c7209fb24a6147df4b8bbd5ab1f"
       }
     }
   },
   "next_display_id": 4,
-  "next_comment_id": 12,
+  "next_comment_id": 13,
   "display_id_map": {
     "2bfd77af-dab2-4e68-85f4-aab3cdc1412c": 3,
     "e929def1-8008-4825-a775-6a23426fe31e": 1,
@@ -31,7 +31,7 @@
       "priority": "high",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:03:07.527426117Z",
-      "updated_at": "2026-09-22T22:07:18.988125381Z",
+      "updated_at": "2026-09-22T22:09:09.944555291Z",
       "labels": [
         "refactor"
       ],
@@ -42,6 +42,13 @@
           "content": "Preflight found 252 Rust/Python files over Peritus 500-line gate and 119 currently tracked directories (including repository metadata/configuration areas). Largest examples: decision_tree.rs 6508, sgd.rs 5106, svm.rs 4424, extras.rs 4293. This is a responsibility-based structural refactor, not a parity repair. Existing report, inventories and tooling are privately backed up with hashes before launching Peritus.",
           "created_at": "2026-09-22T22:07:18.987444491Z",
           "kind": "observation"
+        },
+        "77586c8c-69e2-44a0-9f19-3f57b2ef06b3": {
+          "display_id": 12,
+          "author": "anon-2101b8a8",
+          "content": "User correction: use the saved OpenAI provider and select Sol 5.6. Preserve existing login. The observed latest generated daemon config had OpenCode Zen selected, so this must be corrected through provider selection rather than treated as the intended account.",
+          "created_at": "2026-09-22T22:09:09.943981282Z",
+          "kind": "decision"
         },
         "8abec977-6b14-44cc-b086-c175169946f7": {
           "display_id": 10,
@@ -269,6 +276,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 24,
       "timestamp": "2026-09-22T22:07:18.988125381Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 25,
+      "timestamp": "2026-09-22T22:09:09.944555291Z"
     }
   ],
   "watermark": {
