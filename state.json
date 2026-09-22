@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 16,
-        "tip_oid": "88dbbcc248a4efd115d03f7281bc73aaf10ad2f8",
-        "prefix_sha256": "782a89a2036563feca4d7a275806e49407fc7e3a3357b81eae2c4a59c06dd882"
+        "sequence": 17,
+        "tip_oid": "f244289af52adecb3d8ccc52a77f9c1b4f4aab11",
+        "prefix_sha256": "9818f99890efcb62c2677c4a79b93810f453701f56969fa34ad19f26ffbad4cc"
       }
     }
   },
   "next_display_id": 3,
-  "next_comment_id": 9,
+  "next_comment_id": 10,
   "display_id_map": {
     "e929def1-8008-4825-a775-6a23426fe31e": 1,
     "f993d5f6-3e97-4718-bf41-b00e5ac7fcfa": 2
@@ -60,7 +60,7 @@
       "priority": "medium",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T21:25:40.218329816Z",
-      "updated_at": "2026-09-22T21:47:20.242147942Z",
+      "updated_at": "2026-09-22T21:53:35.919559384Z",
       "labels": [
         "docs"
       ],
@@ -77,6 +77,13 @@
           "author": "anon-2101b8a8",
           "content": "[action] Writing source-based parity map with paired implementation anchors; no further test runs or algorithm edits.",
           "created_at": "2026-09-22T21:47:20.241536304Z",
+          "kind": "note"
+        },
+        "6100cec4-b6a9-4110-8c58-60470d104911": {
+          "display_id": 9,
+          "author": "anon-2101b8a8",
+          "content": "Rewrote GAP-REPORT.md as a source-first review with 20 finding groups and paired ferrolearn/sklearn 1.5.2 implementation references. Includes independently traced defects beyond header status claims: Bayesian GMM convergence is log of normalized responsibility sum, SparsePCA penalizes sample codes rather than feature components, MLP alpha scaling differs by batch size, IterativeImputer uses element max rather than matrix infinity norm and skips complete-data regression fitting, neighbor R2 contradicts default sklearn, TruncatedSVD pads unavailable components, DictionaryLearning fitted OMP default bypasses its helper default, and weighted LogisticRegression loses weights on unpickle. Existing tests were not used as acceptance evidence; no further test runs or library edits. Checked report source paths/line bounds and git diff --check. Retained prior name/signature TSVs as secondary inventory. Coverage limits explicitly listed.",
+          "created_at": "2026-09-22T21:53:35.918922331Z",
           "kind": "note"
         },
         "8dc6e61c-3a57-4bbf-a276-5feb806b9388": {
@@ -191,6 +198,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 16,
       "timestamp": "2026-09-22T21:47:20.242147942Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 17,
+      "timestamp": "2026-09-22T21:53:35.919559384Z"
     }
   ],
   "watermark": {
