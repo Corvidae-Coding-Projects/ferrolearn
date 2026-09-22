@@ -3,15 +3,16 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 35,
-        "tip_oid": "5bd295eca3438c7321107d820f7df841412422fe",
-        "prefix_sha256": "e78d0b128446fcc40c3a3c9950fc81f916f225796f5a12ac6d4c6942356e7414"
+        "sequence": 36,
+        "tip_oid": "66dd5f7f0c71b469743199424af324b36572ae0f",
+        "prefix_sha256": "6ae7a83b2c73ac355c749a8be8e22f83bf60de03ed8c0636076832607cd8f9ed"
       }
     }
   },
-  "next_display_id": 6,
+  "next_display_id": 7,
   "next_comment_id": 19,
   "display_id_map": {
+    "02b468fb-37f0-460e-978a-910f6dff0d04": 6,
     "22e42a4b-adea-4744-aaaa-e9bf7ae9481b": 5,
     "2bfd77af-dab2-4e68-85f4-aab3cdc1412c": 3,
     "9641379b-480d-4e15-9478-8928ad33a223": 4,
@@ -25,6 +26,18 @@
     }
   },
   "issues": {
+    "02b468fb-37f0-460e-978a-910f6dff0d04": {
+      "uuid": "02b468fb-37f0-460e-978a-910f6dff0d04",
+      "display_id": 6,
+      "title": "Complete folder documentation and verify the integrated workspace",
+      "description": "README.md and AGENTS.md in every repository-owned directory, including new domain folders and retained config/docs/fixtures directories, excluding generated metadata/caches. Audit links and useful local instructions. Review Peritus candidate source/API preservation, integrate into original checkout retaining the five prior parity artifacts, run Rust/Python checks, leave uncommitted and await user next steps.",
+      "status": "open",
+      "priority": "high",
+      "parent_uuid": "2bfd77af-dab2-4e68-85f4-aab3cdc1412c",
+      "created_by": "anon-2101b8a8",
+      "created_at": "2026-09-22T22:44:22.656878295Z",
+      "updated_at": "2026-09-22T22:44:22.656878295Z"
+    },
     "22e42a4b-adea-4744-aaaa-e9bf7ae9481b": {
       "uuid": "22e42a4b-adea-4744-aaaa-e9bf7ae9481b",
       "display_id": 5,
@@ -405,6 +418,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 35,
       "timestamp": "2026-09-22T22:44:18.869739381Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 36,
+      "timestamp": "2026-09-22T22:44:22.656878295Z"
     }
   ],
   "watermark": {
