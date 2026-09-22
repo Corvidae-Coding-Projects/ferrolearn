@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 30,
-        "tip_oid": "a989b4f5d8bd46b268c68dcdd0971b53a4b629fe",
-        "prefix_sha256": "cffc9c4397dc8502efe21680119f4c8378a0ce73569e34b1e997a1a07d855e4f"
+        "sequence": 31,
+        "tip_oid": "67f4d31e5427c9f7dccc9dde684f4af330915b7f",
+        "prefix_sha256": "dcc33fec97478217c7471ac6f71d5d65700714c6a5f71b57ce2ec7b87feb87d5"
       }
     }
   },
   "next_display_id": 4,
-  "next_comment_id": 18,
+  "next_comment_id": 19,
   "display_id_map": {
     "2bfd77af-dab2-4e68-85f4-aab3cdc1412c": 3,
     "e929def1-8008-4825-a775-6a23426fe31e": 1,
@@ -31,7 +31,7 @@
       "priority": "high",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:03:07.527426117Z",
-      "updated_at": "2026-09-22T22:32:48.879472477Z",
+      "updated_at": "2026-09-22T22:38:25.033419303Z",
       "labels": [
         "refactor"
       ],
@@ -70,6 +70,13 @@
           "content": "User correction: use the saved OpenAI provider and select Sol 5.6. Preserve existing login. The observed latest generated daemon config had OpenCode Zen selected, so this must be corrected through provider selection rather than treated as the intended account.",
           "created_at": "2026-09-22T22:09:09.943981282Z",
           "kind": "decision"
+        },
+        "85e112ca-e472-4a75-b7c2-59b1a0a10bcb": {
+          "display_id": 18,
+          "author": "anon-2101b8a8",
+          "content": "First candidate files landed: backend_blas.rs inline tests moved to backend_blas/tests.rs. Independent syn comparison showed 405/428 core function records unchanged and 23 rewritten test bodies. Inspection found unnecessary intermediate-variable inlining and expression changes. Sent direct CLI runs continue correction requiring original test bodies/comments restored and token-preserving moves wherever extraction is unnecessary. Production BLAS implementation was unchanged.",
+          "created_at": "2026-09-22T22:38:25.032769505Z",
+          "kind": "observation"
         },
         "8abec977-6b14-44cc-b086-c175169946f7": {
           "display_id": 10,
@@ -341,6 +348,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 30,
       "timestamp": "2026-09-22T22:32:48.879472477Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 31,
+      "timestamp": "2026-09-22T22:38:25.033419303Z"
     }
   ],
   "watermark": {
