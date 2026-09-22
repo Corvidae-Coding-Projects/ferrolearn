@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 43,
-        "tip_oid": "50f524b7633940959c23e2f57a44d21bc57547c6",
-        "prefix_sha256": "c819b12208cf718dcad95c2fd1932361448a601a6bc4acff0c844065a8f59a8b"
+        "sequence": 44,
+        "tip_oid": "20e340019272a216b42c36db1a02be2c5c3ecaf2",
+        "prefix_sha256": "4a639bd7d01161f3b46a9c12df26893b3bfbd956dc0029ad689e637e1fc56aa4"
       }
     }
   },
   "next_display_id": 7,
-  "next_comment_id": 24,
+  "next_comment_id": 25,
   "display_id_map": {
     "02b468fb-37f0-460e-978a-910f6dff0d04": 6,
     "22e42a4b-adea-4744-aaaa-e9bf7ae9481b": 5,
@@ -178,7 +178,7 @@
       "parent_uuid": "2bfd77af-dab2-4e68-85f4-aab3cdc1412c",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:44:07.257421269Z",
-      "updated_at": "2026-09-22T22:55:46.735961358Z",
+      "updated_at": "2026-09-22T23:15:25.847830264Z",
       "labels": [
         "refactor"
       ],
@@ -196,6 +196,13 @@
           "content": "The direct Peritus run has mechanically split backend_blas, backend_faer and dataset in its managed workspace. Parent review independently compares 428 function/method/macro records and 509 declaration/attribute records against untouched original source; all currently match. Agent cargo check for core passes. Pipeline splits, local docs and complete candidate qualification remain pending. Captured immutable declaration/attribute baselines for all 22 crates (15,780 records) and original owned-folder coverage (119 directory ancestors) in private cache for final review.",
           "created_at": "2026-09-22T22:55:46.735266374Z",
           "kind": "observation"
+        },
+        "5888e1f9-edd4-4e45-adb1-f046dd6950d0": {
+          "display_id": 24,
+          "author": "anon-2101b8a8",
+          "content": "Typed pipeline candidate now has contracts, adapters, chain, builder, execution and grouped tests. Independent body comparison remains 428/428 exact. Of 509 declaration/attribute records, 503 are exact and six differ only by parent-visible fields needed across the new children. Source surface review found omitted original public traits FitTransformChain and TransformChain despite cargo check passing; sent a precise correction through native Peritus runs continue. Dynamic pipeline extraction is underway. No refactor files have been integrated into the original checkout.",
+          "created_at": "2026-09-22T23:15:25.847162686Z",
+          "kind": "finding"
         }
       }
     },
@@ -511,6 +518,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 43,
       "timestamp": "2026-09-22T22:55:46.735961358Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 44,
+      "timestamp": "2026-09-22T23:15:25.847830264Z"
     }
   ],
   "watermark": {
