@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 12,
-        "tip_oid": "1d0c6e227d85b3ba1902bcf06dd02a241ae9dc9a",
-        "prefix_sha256": "fe6a8433ab8ae7829c310b0ada5606e3a6ba840b6abf947bbed688ab25e1e3f0"
+        "sequence": 13,
+        "tip_oid": "87d7d97d76518038a671fed853585d627b822b11",
+        "prefix_sha256": "414d9e0379ea7027ba9580db65ae0ac6c916664686571d7342e865dc0be39432"
       }
     }
   },
   "next_display_id": 3,
-  "next_comment_id": 5,
+  "next_comment_id": 6,
   "display_id_map": {
     "e929def1-8008-4825-a775-6a23426fe31e": 1,
     "f993d5f6-3e97-4718-bf41-b00e5ac7fcfa": 2
@@ -60,7 +60,7 @@
       "priority": "medium",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T21:25:40.218329816Z",
-      "updated_at": "2026-09-22T21:27:07.648726172Z",
+      "updated_at": "2026-09-22T21:33:59.735215074Z",
       "labels": [
         "docs"
       ],
@@ -78,6 +78,13 @@
           "content": "Compare the verified scikit-learn 1.5.2 source and live package with current ferrolearn Rust exports, Python wrappers, and existing conformance tests. Refresh GAP-REPORT.md with reproducible API inventories and clearly separated behavioral evidence; retain source provenance and mark unverified areas. No implementation fixes unless needed for the parity map itself.",
           "created_at": "2026-09-22T21:25:58.915815221Z",
           "kind": "plan"
+        },
+        "d488a507-2e4a-422c-be54-ef7058399b17": {
+          "display_id": 5,
+          "author": "anon-2101b8a8",
+          "content": "Generated source-derived API inventory from sklearn 1.5.2 doc/api_reference.py (559 documented entries) and reachable ferrolearn rustdoc. Of 471 ML-facing names, 424 exact Rust names, 12 named Rust analogs, 35 no named item; Python exports 68 documented classes. Live signature comparison of those 68 wrappers finds 45 constructors with missing sklearn parameters, 31 fit methods with missing parameters, and 44 wrappers missing at least one selected sklearn method. Building the Python extension via maturin develop automatically upgraded sklearn to 1.9.1 because pyproject.toml requires >=1.6; restored isolated oracle to 1.5.2 for comparison.",
+          "created_at": "2026-09-22T21:33:59.734659256Z",
+          "kind": "observation"
         }
       }
     }
@@ -143,6 +150,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 12,
       "timestamp": "2026-09-22T21:27:07.648726172Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 13,
+      "timestamp": "2026-09-22T21:33:59.735215074Z"
     }
   ],
   "watermark": {
