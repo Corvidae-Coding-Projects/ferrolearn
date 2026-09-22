@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 29,
-        "tip_oid": "343c1fc1160be9f704a4263a66320d90526c9fbd",
-        "prefix_sha256": "f9f00bb5f8761c94dffc722f29b966a48db1b9d538a173fa2a03fe47c7dedb4c"
+        "sequence": 30,
+        "tip_oid": "a989b4f5d8bd46b268c68dcdd0971b53a4b629fe",
+        "prefix_sha256": "cffc9c4397dc8502efe21680119f4c8378a0ce73569e34b1e997a1a07d855e4f"
       }
     }
   },
   "next_display_id": 4,
-  "next_comment_id": 17,
+  "next_comment_id": 18,
   "display_id_map": {
     "2bfd77af-dab2-4e68-85f4-aab3cdc1412c": 3,
     "e929def1-8008-4825-a775-6a23426fe31e": 1,
@@ -31,7 +31,7 @@
       "priority": "high",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:03:07.527426117Z",
-      "updated_at": "2026-09-22T22:32:44.933637288Z",
+      "updated_at": "2026-09-22T22:32:48.879472477Z",
       "labels": [
         "refactor"
       ],
@@ -56,6 +56,13 @@
           "content": "Preflight found 252 Rust/Python files over Peritus 500-line gate and 119 currently tracked directories (including repository metadata/configuration areas). Largest examples: decision_tree.rs 6508, sgd.rs 5106, svm.rs 4424, extras.rs 4293. This is a responsibility-based structural refactor, not a parity repair. Existing report, inventories and tooling are privately backed up with hashes before launching Peritus.",
           "created_at": "2026-09-22T22:07:18.987444491Z",
           "kind": "observation"
+        },
+        "68222ee7-4040-4f7c-81bf-14a327631813": {
+          "display_id": 17,
+          "author": "anon-2101b8a8",
+          "content": "[action] Active Peritus run afcdd27c4fd82c86d67a61e882b7c224 is Writing core crate. Use ONLY installed peritus --endpoint /home/doll/.local/state/peritus/daemon/peritus-2415fd9a2f0412a83b937a3113c7e0af.sock --json runs show/continue/etc for control (user explicitly corrected interface). Do not use retired cache driver.py HTTP WebUI bridge. OpenAI gpt-5.6-sol selected for all roles. Published design under daemon/product-runs/<run>.design.md. Managed workspace workspace_bd189679c8171f00. Once core reviewed, pending complete remaining-workspace.txt in private cache can be sent via CLI runs continue using subprocess argument array. Need all crates, every owned folder docs, full validation, integration into original checkout preserving five parity artifacts, then await user next steps.",
+          "created_at": "2026-09-22T22:32:48.878672559Z",
+          "kind": "note"
         },
         "77586c8c-69e2-44a0-9f19-3f57b2ef06b3": {
           "display_id": 12,
@@ -329,6 +336,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 29,
       "timestamp": "2026-09-22T22:32:44.933637288Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 30,
+      "timestamp": "2026-09-22T22:32:48.879472477Z"
     }
   ],
   "watermark": {
