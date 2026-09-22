@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 10,
-        "tip_oid": "3f57c58f016c249dd5fd9460c039b65a3397ab87",
-        "prefix_sha256": "f16b6ecbe26064d1955ecb6b15ab3352ca54decc7dc1f3025977885f4726b26e"
+        "sequence": 11,
+        "tip_oid": "9fec7452baedb80f62459180b201c26d0d1d0984",
+        "prefix_sha256": "d6696a3f00801c6aed8857c43ae12e8c8c7e164d0b46d37c3f2b2a4144314413"
       }
     }
   },
   "next_display_id": 3,
-  "next_comment_id": 3,
+  "next_comment_id": 4,
   "display_id_map": {
     "e929def1-8008-4825-a775-6a23426fe31e": 1,
     "f993d5f6-3e97-4718-bf41-b00e5ac7fcfa": 2
@@ -60,10 +60,19 @@
       "priority": "medium",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T21:25:40.218329816Z",
-      "updated_at": "2026-09-22T21:25:44.044160665Z",
+      "updated_at": "2026-09-22T21:25:58.916477921Z",
       "labels": [
         "docs"
-      ]
+      ],
+      "comments": {
+        "ca6750c6-4283-4f85-87c2-6c06358947f4": {
+          "display_id": 3,
+          "author": "anon-2101b8a8",
+          "content": "Compare the verified scikit-learn 1.5.2 source and live package with current ferrolearn Rust exports, Python wrappers, and existing conformance tests. Refresh GAP-REPORT.md with reproducible API inventories and clearly separated behavioral evidence; retain source provenance and mark unverified areas. No implementation fixes unless needed for the parity map itself.",
+          "created_at": "2026-09-22T21:25:58.915815221Z",
+          "kind": "plan"
+        }
+      }
     }
   },
   "next_milestone_id": 1,
@@ -117,6 +126,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 10,
       "timestamp": "2026-09-22T21:25:47.921850677Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 11,
+      "timestamp": "2026-09-22T21:25:58.916477921Z"
     }
   ],
   "watermark": {
