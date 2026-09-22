@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 23,
-        "tip_oid": "03f8ee5387c324e2934bd6d48e34a646f10dff56",
-        "prefix_sha256": "5b7114cf69be7bb763859d5171e52aa48a14e032b206f68da201b91398a2d72f"
+        "sequence": 24,
+        "tip_oid": "666c7a175580159416cc8109467a8294f0acd3fc",
+        "prefix_sha256": "8510b93d4e34c694d5c6b9d09b9afcb60698932181c9bd08fd5e53ee30b233fb"
       }
     }
   },
   "next_display_id": 4,
-  "next_comment_id": 11,
+  "next_comment_id": 12,
   "display_id_map": {
     "2bfd77af-dab2-4e68-85f4-aab3cdc1412c": 3,
     "e929def1-8008-4825-a775-6a23426fe31e": 1,
@@ -31,11 +31,18 @@
       "priority": "high",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:03:07.527426117Z",
-      "updated_at": "2026-09-22T22:04:07.806940014Z",
+      "updated_at": "2026-09-22T22:07:18.988125381Z",
       "labels": [
         "refactor"
       ],
       "comments": {
+        "5ea220ca-d618-453c-aec3-5aa632bac0fa": {
+          "display_id": 11,
+          "author": "anon-2101b8a8",
+          "content": "Preflight found 252 Rust/Python files over Peritus 500-line gate and 119 currently tracked directories (including repository metadata/configuration areas). Largest examples: decision_tree.rs 6508, sgd.rs 5106, svm.rs 4424, extras.rs 4293. This is a responsibility-based structural refactor, not a parity repair. Existing report, inventories and tooling are privately backed up with hashes before launching Peritus.",
+          "created_at": "2026-09-22T22:07:18.987444491Z",
+          "kind": "observation"
+        },
         "8abec977-6b14-44cc-b086-c175169946f7": {
           "display_id": 10,
           "author": "anon-2101b8a8",
@@ -257,6 +264,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 23,
       "timestamp": "2026-09-22T22:04:07.806940014Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 24,
+      "timestamp": "2026-09-22T22:07:18.988125381Z"
     }
   ],
   "watermark": {
