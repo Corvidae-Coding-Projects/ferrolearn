@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 28,
-        "tip_oid": "353cdd22d3e7f646c31bee5b125f66a87fff0061",
-        "prefix_sha256": "1c0297c10da78af500e22de482c7beb38a4c3ce3ad0d52a043c67e9ec84bf040"
+        "sequence": 29,
+        "tip_oid": "343c1fc1160be9f704a4263a66320d90526c9fbd",
+        "prefix_sha256": "f9f00bb5f8761c94dffc722f29b966a48db1b9d538a173fa2a03fe47c7dedb4c"
       }
     }
   },
   "next_display_id": 4,
-  "next_comment_id": 16,
+  "next_comment_id": 17,
   "display_id_map": {
     "2bfd77af-dab2-4e68-85f4-aab3cdc1412c": 3,
     "e929def1-8008-4825-a775-6a23426fe31e": 1,
@@ -31,11 +31,18 @@
       "priority": "high",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:03:07.527426117Z",
-      "updated_at": "2026-09-22T22:25:05.045627469Z",
+      "updated_at": "2026-09-22T22:32:44.933637288Z",
       "labels": [
         "refactor"
       ],
       "comments": {
+        "209e1360-3bc1-4f1a-a549-b44f5e5cfd2c": {
+          "display_id": 16,
+          "author": "anon-2101b8a8",
+          "content": "The second Peritus attempt completed its grounded design and entered Writing after 8m09s. Reviewed the published design: dynamic pipeline contracts/composition/execution/passthrough/union; typed contracts/adapters/chain/builder/execution; validation and backend conversion boundaries; domain-grouped nested tests; README+AGENTS coverage; existing module roots/reexports/features preserved. No source-checkout changes yet. Direct G1 JSON run controls are now the sole task-control route. External syn source comparison baseline is ready for candidate review.",
+          "created_at": "2026-09-22T22:32:44.932843574Z",
+          "kind": "decision"
+        },
         "29fbb9cf-f3f1-47f2-98f0-337eb4cb2f19": {
           "display_id": 15,
           "author": "anon-2101b8a8",
@@ -317,6 +324,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 28,
       "timestamp": "2026-09-22T22:25:05.045627469Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 29,
+      "timestamp": "2026-09-22T22:32:44.933637288Z"
     }
   ],
   "watermark": {
