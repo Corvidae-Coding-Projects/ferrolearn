@@ -3,9 +3,9 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 20,
-        "tip_oid": "555ce2f641990ec82cf40220c3283f1449aea11b",
-        "prefix_sha256": "bec9614a8059134b7d92f75c0283b9c5ef02946432066edab689898eb988af6f"
+        "sequence": 21,
+        "tip_oid": "5749b40c60fd76ff8b324a48fce1a2248934ae75",
+        "prefix_sha256": "6002d48754f77e9b518990fc1e6a136608a19a495bef8fd1a2994b5ed9a4e605"
       }
     }
   },
@@ -26,7 +26,10 @@
       "priority": "high",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:03:07.527426117Z",
-      "updated_at": "2026-09-22T22:03:07.527426117Z"
+      "updated_at": "2026-09-22T22:03:11.838442506Z",
+      "labels": [
+        "refactor"
+      ]
     },
     "e929def1-8008-4825-a775-6a23426fe31e": {
       "uuid": "e929def1-8008-4825-a775-6a23426fe31e",
@@ -225,6 +228,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 20,
       "timestamp": "2026-09-22T22:03:07.527426117Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 21,
+      "timestamp": "2026-09-22T22:03:11.838442506Z"
     }
   ],
   "watermark": {
