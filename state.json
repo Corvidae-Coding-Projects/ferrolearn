@@ -3,20 +3,31 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 19,
-        "tip_oid": "b72ee1b15e5d395986600d48c54342ef43a58b2d",
-        "prefix_sha256": "4724fafc99e432647a0d9f22b6cf448ef084ed86c968a36de83995946c0a4501"
+        "sequence": 20,
+        "tip_oid": "555ce2f641990ec82cf40220c3283f1449aea11b",
+        "prefix_sha256": "bec9614a8059134b7d92f75c0283b9c5ef02946432066edab689898eb988af6f"
       }
     }
   },
-  "next_display_id": 3,
+  "next_display_id": 4,
   "next_comment_id": 10,
   "display_id_map": {
+    "2bfd77af-dab2-4e68-85f4-aab3cdc1412c": 3,
     "e929def1-8008-4825-a775-6a23426fe31e": 1,
     "f993d5f6-3e97-4718-bf41-b00e5ac7fcfa": 2
   },
   "locks": {},
   "issues": {
+    "2bfd77af-dab2-4e68-85f4-aab3cdc1412c": {
+      "uuid": "2bfd77af-dab2-4e68-85f4-aab3cdc1412c",
+      "display_id": 3,
+      "title": "Reorganize ferrolearn through supervised Peritus linter and document every source folder",
+      "status": "open",
+      "priority": "high",
+      "created_by": "anon-2101b8a8",
+      "created_at": "2026-09-22T22:03:07.527426117Z",
+      "updated_at": "2026-09-22T22:03:07.527426117Z"
+    },
     "e929def1-8008-4825-a775-6a23426fe31e": {
       "uuid": "e929def1-8008-4825-a775-6a23426fe31e",
       "display_id": 1,
@@ -209,6 +220,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 19,
       "timestamp": "2026-09-22T21:53:44.256126580Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 20,
+      "timestamp": "2026-09-22T22:03:07.527426117Z"
     }
   ],
   "watermark": {
