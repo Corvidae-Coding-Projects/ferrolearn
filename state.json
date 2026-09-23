@@ -3,9 +3,9 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 55,
-        "tip_oid": "1185b671ea97d03a13c86e6c117e5920c89b878f",
-        "prefix_sha256": "2e90d0add4f7b03a01ec15ad1891e60040e67524bcea941568acabd70d2b2848"
+        "sequence": 56,
+        "tip_oid": "6100054ee64a7ae8de140f3bd7f73d2fed0b1b22",
+        "prefix_sha256": "8c0db13cc4cb084c8b4c36978dc7622f09ba56fb39d947a3ecc09ddbeafde8fb"
       }
     }
   },
@@ -27,6 +27,10 @@
     "4": {
       "agent_id": "anon-2101b8a8",
       "claimed_at": "2026-09-22T22:44:46.680388327Z"
+    },
+    "5": {
+      "agent_id": "anon-2101b8a8",
+      "claimed_at": "2026-09-23T04:13:22.606539744Z"
     }
   },
   "issues": {
@@ -643,6 +647,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 55,
       "timestamp": "2026-09-23T03:55:35.248505092Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 56,
+      "timestamp": "2026-09-23T04:13:22.606539744Z"
     }
   ],
   "watermark": {
