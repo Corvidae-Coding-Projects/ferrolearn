@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 48,
-        "tip_oid": "d070eb8b25aaee0166c0467c166662a97de0ea53",
-        "prefix_sha256": "93662b8ad305daf5f0d59a6a22dc0880a83d29fb6c41d294a48c16125725e361"
+        "sequence": 49,
+        "tip_oid": "b05f8e8ba74fd5f6f88637d14e2518c034b59a3d",
+        "prefix_sha256": "12cab6d09431743037c81f49dcbfa08145d4be4654666aebe3f6c4c2f2c7dc72"
       }
     }
   },
   "next_display_id": 7,
-  "next_comment_id": 28,
+  "next_comment_id": 29,
   "display_id_map": {
     "02b468fb-37f0-460e-978a-910f6dff0d04": 6,
     "22e42a4b-adea-4744-aaaa-e9bf7ae9481b": 5,
@@ -59,10 +59,19 @@
       "parent_uuid": "2bfd77af-dab2-4e68-85f4-aab3cdc1412c",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:44:14.979691576Z",
-      "updated_at": "2026-09-22T22:44:18.869739381Z",
+      "updated_at": "2026-09-23T00:12:29.717384052Z",
       "labels": [
         "refactor"
-      ]
+      ],
+      "comments": {
+        "c57e4f70-a504-4327-8fd1-6aa30754815f": {
+          "display_id": 28,
+          "author": "anon-2101b8a8",
+          "content": "[action] Sent remaining-workspace.txt via direct runs continue to complete all21 remaining crates/scripts and every owned directory docs. Includes syntax span maps (252 original oversized files), source-preservation tooling, 7170-entry test-discovery baseline, portable/durable docs instructions, correct native linking environment, and direction not to create bogus root builder.rs/fitting.rs for gate false positives. Peritus core Source layout gate passed; independent all58 files/docs checked. Current candidate still managed, original5 parity artifacts protected. Latest core harness gates saved core-harness-gates.txt.",
+          "created_at": "2026-09-23T00:12:29.716704618Z",
+          "kind": "note"
+        }
+      }
     },
     "2bfd77af-dab2-4e68-85f4-aab3cdc1412c": {
       "uuid": "2bfd77af-dab2-4e68-85f4-aab3cdc1412c",
@@ -568,6 +577,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 48,
       "timestamp": "2026-09-23T00:12:25.876120135Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 49,
+      "timestamp": "2026-09-23T00:12:29.717384052Z"
     }
   ],
   "watermark": {
