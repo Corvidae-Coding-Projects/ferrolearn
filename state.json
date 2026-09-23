@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 45,
-        "tip_oid": "e603dd6c8f6a2032ef36536107a27c0adb70825e",
-        "prefix_sha256": "1c0ca78f1b3dca5ff1ec87c362051746131a64cb428fc477b70fd2161cfad28b"
+        "sequence": 46,
+        "tip_oid": "10b50fb6cb23304dd9dd3097e2ddf971cdf79172",
+        "prefix_sha256": "541833fb4177a97e434764e75f05a1aaf10145a86dce61ebef0154cda86bc516"
       }
     }
   },
   "next_display_id": 7,
-  "next_comment_id": 26,
+  "next_comment_id": 27,
   "display_id_map": {
     "02b468fb-37f0-460e-978a-910f6dff0d04": 6,
     "22e42a4b-adea-4744-aaaa-e9bf7ae9481b": 5,
@@ -178,7 +178,7 @@
       "parent_uuid": "2bfd77af-dab2-4e68-85f4-aab3cdc1412c",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:44:07.257421269Z",
-      "updated_at": "2026-09-22T23:42:07.732741410Z",
+      "updated_at": "2026-09-23T00:00:26.034815299Z",
       "labels": [
         "refactor"
       ],
@@ -209,6 +209,13 @@
           "author": "anon-2101b8a8",
           "content": "[action] Core candidate in Peritus run afcdd27c4fd82c86d67a61e882b7c224 now has 57 Rust files all <=500 lines and README+AGENTS in all 14 core folders. All 168 default tests pass with preserved test-name multiset; fmt/no_std/all-feature cargo check and focused Clippy --no-deps pass. Raw body audit 424/428 exact: four reviewed differences are optional parameter trailing commas only. All original public names restored, declaration differences only pub(super) visibility. Pending source/docs review corrections are in private cache core-review-pending.json (misnamed dynamic fitting module and transient/host-specific AGENTS directions). All-feature tests need genuine static OpenBLAS archive; agent currently querying dnf packages. CLI show times out during long synchronous host commands; retry after completion, never switch to WebUI/TUI. Do not interrupt pending model batches with more followups: each followup invalidates proposed tools. After core candidate, send pending remaining-workspace.txt plus unresolved core corrections through direct CLI to complete all remaining crates/docs, then verify/integrate preserving five parity artifacts. Original checkout source still untouched.",
           "created_at": "2026-09-22T23:42:07.732096399Z",
+          "kind": "note"
+        },
+        "bbf3f01e-d6a3-4365-a35f-4f2d4d2698eb": {
+          "display_id": 26,
+          "author": "anon-2101b8a8",
+          "content": "[action] Peritus bridge was rebuilt locally with omitted Codex native plan/user-input/web/sleep/discovery capabilities disabled; existing native-event rejection remains. Provider tests31, Clippy, fmt and release build pass. Installed daemon PID2399218 same saved config26/login OpenAI gpt-5.6-sol. Direct CLI continued same core candidate with core-finalize.txt; currently Designing. Genuine Fedora static OpenBLAS archive extracted to local link cache, valid pkgconfig metadata added with gfortran runtime link; all-feature core tests198 passed1ignored. Existing five parity artifacts hash-identical; original source untouched. Await core return and built-in Source layout gate, then send remaining-workspace.txt for all other crates/docs. Peritus issue91 records local invocation.rs fix, no commits.",
+          "created_at": "2026-09-23T00:00:26.034107947Z",
           "kind": "note"
         }
       }
@@ -535,6 +542,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 45,
       "timestamp": "2026-09-22T23:42:07.732741410Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 46,
+      "timestamp": "2026-09-23T00:00:26.034815299Z"
     }
   ],
   "watermark": {
