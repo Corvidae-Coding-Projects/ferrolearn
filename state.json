@@ -3,14 +3,14 @@
   "frontier": {
     "agents": {
       "anon-2101b8a8": {
-        "sequence": 60,
-        "tip_oid": "234566d8c1be3db1046c7202ca2738248405a8b6",
-        "prefix_sha256": "21ed817ba7bc70c665924974e6e1ca47ed52f8561d303f7e3fe3b20a86a223a5"
+        "sequence": 61,
+        "tip_oid": "fcc24b733199bcdd6b1681a7917355c0530044e3",
+        "prefix_sha256": "d1cc3948f3aa486e81979eca8d7f18d23befaeedaf558271f449d901a1fa75c5"
       }
     }
   },
   "next_display_id": 7,
-  "next_comment_id": 37,
+  "next_comment_id": 38,
   "display_id_map": {
     "02b468fb-37f0-460e-978a-910f6dff0d04": 6,
     "22e42a4b-adea-4744-aaaa-e9bf7ae9481b": 5,
@@ -64,7 +64,7 @@
       "parent_uuid": "2bfd77af-dab2-4e68-85f4-aab3cdc1412c",
       "created_by": "anon-2101b8a8",
       "created_at": "2026-09-22T22:44:14.979691576Z",
-      "updated_at": "2026-09-23T04:15:37.470089459Z",
+      "updated_at": "2026-09-23T04:15:49.892151649Z",
       "labels": [
         "refactor"
       ],
@@ -102,6 +102,13 @@
           "author": "anon-2101b8a8",
           "content": "Session auto-ended (stale after 347 minutes). No handoff notes provided.",
           "created_at": "2026-09-23T03:50:15.224208275Z",
+          "kind": "handoff"
+        },
+        "c5151af2-5529-42d1-bd36-dd383f8cb8f5": {
+          "display_id": 37,
+          "author": "anon-2101b8a8",
+          "content": "Paused by user after safe boundary. Peritus run afcdd27c4fd82c86d67a61e882b7c224 cancelled, retryable, candidate preserved at managed workspace. Original ferrolearn source not integrated; protected parity artifacts untouched. Remaining 136 oversized files and 66 missing folder doc pairs; full final validation pending. Project-Peritus develop has local OpenAI Codex invocation fix and docs/openai-codex-runtime-bridge-repair.md with source links; no commit or push.",
+          "created_at": "2026-09-23T04:15:49.891470932Z",
           "kind": "handoff"
         },
         "c57e4f70-a504-4327-8fd1-6aa30754815f": {
@@ -691,6 +698,11 @@
       "agent_id": "anon-2101b8a8",
       "agent_seq": 60,
       "timestamp": "2026-09-23T04:15:45.906080845Z"
+    },
+    {
+      "agent_id": "anon-2101b8a8",
+      "agent_seq": 61,
+      "timestamp": "2026-09-23T04:15:49.892151649Z"
     }
   ],
   "watermark": {
